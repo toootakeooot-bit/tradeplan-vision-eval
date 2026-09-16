@@ -1,0 +1,26 @@
+{
+  "entry_episode_id": "US100-ENT-0001",
+  "direction_episode_id": "US100-DIR-0002",
+  "symbol": "US100",
+  "direction": "LONG",
+  "entry_at": "2026-09-15T21:03:00+09:00",
+  "canonical_entry_slot_jst": "2026-09-15T21:03:00+09:00",
+  "entry_time_precision": "CANONICAL_ONLY",
+  "entry_price": 29109.3,
+  "initial_sl": 28967,
+  "initial_tp": [29280.2, 29400, 29600],
+  "tp_hits": [
+    {"level": 29280.2, "hit": false, "hit_at": null},
+    {"level": 29400, "hit": false, "hit_at": null},
+    {"level": 29600, "hit": false, "hit_at": null}
+  ],
+  "sl_hit": false,
+  "sl_hit_at": null,
+  "first_exit_event": null,
+  "status": "UNRESOLVED",
+  "signal_ended_at": "2026-09-16T10:27:59+09:00",
+  "signal_end_reason": "DIRECTION_NONE",
+  "source_event_id": "TC-20260915-2103-US100",
+  "mt4_result_ref": null,
+  "note": "Outcome remains unresolved until external price history confirms TP/SL touch order. Initial plan is frozen."
+}

@@ -1,0 +1,26 @@
+{
+  "entry_episode_id": "GOLD-ENT-0001",
+  "direction_episode_id": "GOLD-DIR-0001",
+  "symbol": "GOLD",
+  "direction": "SHORT",
+  "entry_at": "2026-09-15T09:28:00+09:00",
+  "canonical_entry_slot_jst": "2026-09-15T08:03:00+09:00",
+  "entry_time_precision": "APPROX_MINUTE",
+  "entry_price": 4287.655,
+  "initial_sl": 4302.214,
+  "initial_tp": [4262.888, 4234.662, 4200],
+  "tp_hits": [
+    {"level": 4262.888, "hit": false, "hit_at": null},
+    {"level": 4234.662, "hit": false, "hit_at": null},
+    {"level": 4200, "hit": false, "hit_at": null}
+  ],
+  "sl_hit": false,
+  "sl_hit_at": null,
+  "first_exit_event": null,
+  "status": "UNRESOLVED",
+  "signal_ended_at": "2026-09-15T17:31:14+09:00",
+  "signal_end_reason": "ENTRY_STATUS_HOLD",
+  "source_event_id": "TC-20260915-0803-GOLD",
+  "mt4_result_ref": null,
+  "note": "Outcome remains unresolved until external price history confirms TP/SL touch order. Initial plan is frozen."
+}

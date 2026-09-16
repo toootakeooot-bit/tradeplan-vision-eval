@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tc_event.schema.json",
+  "title": "TC Event",
+  "type": "object",
+  "required": ["event_id", "timestamp_jst", "symbol", "source", "direction", "entry_status"],
+  "properties": {
+    "event_id": {"type": "string"},
+    "timestamp_jst": {"type": "string", "format": "date-time"},
+    "symbol": {"type": "string"},
+    "source": {"enum": ["TC_PERIODIC", "TC_SPOT", "BACKFILL"]},
+    "direction": {"enum": ["LONG", "SHORT", "NONE", "UNDETERMINED"]},
+    "entry_status": {"enum": ["ACTIONABLE", "TRADE", "WAIT", "HOLD", "INVALID", "UNDETERMINED", "ERROR"]},
+    "entry": {"type": ["number", "null"]},
+    "sl": {"type": ["number", "null"]},
+    "tp": {"type": "array", "items": {"type": "number"}},
+    "invalidation": {"type": ["string", "null"]},
+    "raw_ref": {"type": ["string", "null"]},
+    "backfill_confidence": {"enum": ["NATIVE", "EXACT", "PARTIAL", "UNKNOWN"]}
+  },
+  "additionalProperties": true
+}

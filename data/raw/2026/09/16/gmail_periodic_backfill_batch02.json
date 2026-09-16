@@ -1,0 +1,36 @@
+{
+  "imported_at_jst": "2026-09-16T20:20:00+09:00",
+  "source": "GMAIL_TC_NOTIFICATIONS",
+  "messages": [
+    {
+      "message_id": "1a0a7d43fc7e8f97",
+      "subject": "[TC定期][RECOVERY] 2026-09-16 09:03 JST｜スポット様式レポート",
+      "canonical_cycle_key": "tc:periodic:20260916-0903",
+      "canonical_slot_jst": "2026-09-16T09:03:00+09:00",
+      "confidence": "EXACT",
+      "recovery": true,
+      "snapshot_window_jst": "2026-09-16T10:24:44+09:00/2026-09-16T10:27:59+09:00",
+      "body": "09:03周期は失敗扱い。10:24–10:27 JSTにD1/H4/H1を全件LIVE再取得。GOLD: 方向候補LONG、D1/H4/H1 bullish。H1 Entry候補4266.613 / SL4240 / TP4287.338,4290.62,4308.063。ただしpotentialPositionのみでACTIONABLE化せず。USDJPY: 方向候補NONE、D1 bearish/H4 bullish/H1 bearishで競合。US100: 方向候補NONE、D1 bullish/H4 neutral/H1 neutral。Execution Permission: NO。これは09:03時点の相場復元ではなく10:24–10:27のRECOVERYデータ。"
+    },
+    {
+      "message_id": "1a0a82c7742f768d",
+      "subject": "[TC定期] 2026-09-16 12:03 JST｜スポット様式レポート",
+      "canonical_cycle_key": "tc:periodic:20260916-1203",
+      "canonical_slot_jst": "2026-09-16T12:03:00+09:00",
+      "confidence": "EXACT",
+      "recovery": false,
+      "snapshot_window_jst": "2026-09-16T12:03:03+09:00/2026-09-16T12:04:12+09:00",
+      "body": "GOLD: 判定保留、方向候補NONE。D1/H4/H1 bullishだがpotentialPositionのみではACTIONABLE化しない。H1 Entry候補4327.115 / SL4305 / TP4345,4360,4380。USDJPY: 判定保留、方向候補NONE。D1 bearish/H4 bullish/H1 bullishで競合。US100: 判定保留、方向候補NONE。D1 bullish/H4 neutral/H1 bullishでSetup未整合。Execution Permission: NO。"
+    },
+    {
+      "message_id": "1a0a95e5db720254",
+      "subject": "[TC定期][RECOVERY] 2026-09-16 17:03 JST｜スポット様式レポート",
+      "canonical_cycle_key": "tc:periodic:20260916-1703",
+      "canonical_slot_jst": "2026-09-16T17:03:00+09:00",
+      "confidence": "EXACT",
+      "recovery": true,
+      "snapshot_window_jst": "2026-09-16T17:35:57+09:00/2026-09-16T17:38:27+09:00",
+      "body": "17:03周期は失敗扱い。17:35–17:38 JSTにH4/H1をLIVE再取得、D1は10:24–10:27のCURRENTを再利用。GOLD: 判定保留、方向候補LONG、3TF bullish一致。H1 Entry4329.38 / SL4315 / TP4340.734,4350,4365。ただしpotentialPosition単独でACTIONABLE化しない。USDJPY: 判定保留、方向候補NONE、D1 bearish/H4-H1 bullish競合。US100: 判定保留、方向候補NONE、D1-H1 bullish/H4 neutral。Execution Permission: NO。これは17:03時点の相場復元ではなく17:35–17:38のRECOVERYデータ。"
+    }
+  ]
+}

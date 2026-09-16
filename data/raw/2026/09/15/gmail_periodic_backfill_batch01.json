@@ -1,0 +1,47 @@
+{
+  "imported_at_jst": "2026-09-16T20:00:00+09:00",
+  "source": "GMAIL_TC_NOTIFICATIONS",
+  "messages": [
+    {
+      "message_id": "1a0a08c064fa1a01",
+      "subject": "[TC定期][RECOVERY] 2026-09-15 00:03 JST",
+      "canonical_cycle_key": "tc:periodic:20260915-0003",
+      "canonical_slot_jst": "2026-09-15T00:03:00+09:00",
+      "confidence": "PARTIAL",
+      "body": "TC Native 00:03欠損分 Recovery Run 完了\ncanonical_cycle_key: tc:periodic:20260915-0003\n実行時刻: 2026-09-15 00:27–00:31 JST頃\n\nGOLD#\nD1: CACHE（2026-09-14 12:12頃取得）\nH4: CACHE（2026-09-14 18:14頃取得）\nH1: LIVE / UNDETERMINED（判定保留）\nM15: 未取得\n\nUSDJPY#\nD1: CACHE（2026-09-14 12:13頃取得）\nH4: CACHE → H1 ACTIONABLE確認のためLIVE再取得\nH1: LIVE / ACTIONABLE（売買候補・実行許可ではない）\nM15: LIVE確認\n\nUS100Cash#\nProvider: PEPPERSTONE/NAS100\n旧FOREXCOM cacheはTC5現行registryと不一致のため不使用\nD1: LIVE\nH4: LIVE → H1 ACTIONABLE確認のためLIVE再取得\nH1: LIVE / ACTIONABLE（売買候補・実行許可ではない）\nM15: LIVE確認\n\nNative calls: 9\nCACHE再利用: 4 items\nM15_called: USDJPY#, US100Cash#\nErrors: none\nExecution Permission: NO"
+    },
+    {
+      "message_id": "1a0a278625893972",
+      "subject": "[TC定期][RECOVERY] 2026-09-15 08:03 JST",
+      "canonical_cycle_key": "tc:periodic:20260915-0803",
+      "canonical_slot_jst": "2026-09-15T08:03:00+09:00",
+      "confidence": "EXACT",
+      "body": "canonical slot: 2026-09-15 08:03 JST\nrecovery: 09:24 JST（09:00 quota reset後）\ncanonical_cycle_key: tc:periodic:20260915-0803\n\nGOLD#: TRADE / SHORT\nD1 LIVE 09:29頃 / H4 LIVE 09:27頃 / H1 LIVE 09:28頃\nH1 Entry 4287.655 / SL 4302.214 / TP 4262.888, 4234.662, 4200\nInvalidation: H1でEMA20上抜け等により弱気前提が崩れる場合\n\nUSDJPY#: TRADE / LONG\nD1 LIVE 09:25頃 / H4 LIVE 09:25頃 / H1 LIVE 09:26頃\nH1 Entry 154.544 / SL 154.000 / TP 154.892, 155.200, 155.600\nInvalidation: H1の上昇前提が崩れ、154.0近辺の支持を維持できない場合\n\nUS100Cash#: WAIT / NONE\nprovider: PEPPERSTONE/NAS100\nD1 LIVE 09:26頃 / H4 LIVE 09:26頃 / H1 LIVE 09:27頃\nH1は短期強気だが29325.7上抜け確認待ち。Entry/SL/TPは最終WAITのため採用しない。\n\nExecution Permission: NO"
+    },
+    {
+      "message_id": "1a0a3075471ee853",
+      "subject": "[TC Native 障害] 2026-09-15 12:03 JST",
+      "canonical_cycle_key": "tc:periodic:20260915-1203",
+      "canonical_slot_jst": "2026-09-15T12:03:00+09:00",
+      "confidence": "EXACT",
+      "cycle_status": "FAILED_BEFORE_JUDGEMENT",
+      "body": "TC Native 定期サイクル障害通知\ncanonical scheduled JST: 2026-09-15 12:03\nactual wake: 2026-09-15 12:05:31 JST\ncanonical_cycle_key: tc:periodic:20260915-1203\nfailure category: TradingCursor Native provider call blocked\nfailed stage: GOLD# / H4 LIVE\nsuccessful Native calls before failure: 0\n最終判定まで進まず。\nExecution Permission: NO"
+    },
+    {
+      "message_id": "1a0a450cb72010d6",
+      "subject": "[TC定期][17:03 RECOVERY] GOLD / USDJPY / US100 スポット様式レポート",
+      "canonical_cycle_key": "tc:periodic:20260915-1703",
+      "canonical_slot_jst": "2026-09-15T17:03:00+09:00",
+      "confidence": "EXACT",
+      "body": "TC定期 17:03 RECOVERY｜GOLD: HOLD / SHORT候補。H1 Entry候補 4274.17 / SL 4290 / TP 4260, 4245, 4220。ただしNormalizer上はUNDETERMINED→HOLD。USDJPY: HOLD / LONG候補。H1 Entry候補 154.926 / SL 154.5 / TP 155.2, 155.6, 156.0。ただし正式判定HOLD。US100: HOLD / SHORT候補。H1 Entry候補 28968.1 / SL 29200 / TP 28800, 28650, 28400。ただし正式判定HOLD。Execution Permission: NO"
+    },
+    {
+      "message_id": "1a0a51be3f305f4c",
+      "subject": "[TC定期][補送] 2026-09-15 21:03 JST",
+      "canonical_cycle_key": "tc:periodic:20260915-2103",
+      "canonical_slot_jst": "2026-09-15T21:03:00+09:00",
+      "confidence": "EXACT",
+      "body": "TC定期 21:03｜保存済み結果から補送。GOLD 売買候補 / SHORT、H1 Entry候補 4282.57、SL 4310、TP 4264.945 / 4240 / 4210。USDJPY 売買候補 / LONG、H1 Entry候補 154.908、SL 154.647、TP 155.188 / 155.471 / 155.894。US100 売買候補 / LONG、H1 Entry候補 29109.3、SL 28967、TP 29280.2 / 29400 / 29600。Execution Permission: NO"
+    }
+  ]
+}

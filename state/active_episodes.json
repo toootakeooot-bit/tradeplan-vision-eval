@@ -1,5 +1,12 @@
 {
-  "updated_at": null,
-  "direction": {},
-  "entry": {}
+  "updated_at": "2026-09-16T20:30:00+09:00",
+  "direction": {
+    "GOLD": "GOLD-DIR-0003"
+  },
+  "entry": {
+    "GOLD": ["GOLD-ENT-0001", "GOLD-ENT-0002"],
+    "USDJPY": ["USDJPY-ENT-0001", "USDJPY-ENT-0002"],
+    "US100": ["US100-ENT-0001"]
+  },
+  "note": "direction contains currently active directional scenarios. entry contains unresolved hypothetical Trade Plans still requiring TP/SL outcome verification, even if the original signal window has ended."
 }

@@ -1,0 +1,21 @@
+{
+  "imported_at_jst": "2026-09-16T20:50:00+09:00",
+  "source": "GMAIL_TC_SPOT_NOTIFICATIONS",
+  "episode_scope": "AUXILIARY_ONLY",
+  "messages": [
+    {
+      "message_id": "1a0a45bdcbd5be84",
+      "timestamp_jst": "2026-09-15T18:17:00+09:00",
+      "symbol": "GOLD",
+      "subject": "[TCスポット] GOLD M15 エントリー前｜SHORT候補｜2026-09-15 18:17 JST",
+      "summary": "M15 LIVE bearish 0.75, current 4265.165, Entry候補4265.165, SL4281.749, TP4258.544/4250/4240。H4/H1/M15 SHORT一致、D1 bullish。条件付きSHORT候補。"
+    },
+    {
+      "message_id": "1a0a511d605dea85",
+      "timestamp_jst": "2026-09-15T21:35:00+09:00",
+      "symbol": "USDJPY",
+      "subject": "[TCスポット] USDJPY M15 ロング保有中｜HOLD継続｜2026-09-15 21:35 JST",
+      "summary": "M15 LIVE bullish 0.75, current 154.984, TC long candidate154.984, M15 SL154.75, TP155.15/155.35/155.60。判定LONG継続HOLD、追撃なし。"
+    }
+  ]
+}

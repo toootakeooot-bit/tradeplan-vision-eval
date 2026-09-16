@@ -1,0 +1,13 @@
+{
+  "episode_id": "GOLD-DIR-0003",
+  "symbol": "GOLD",
+  "direction": "LONG",
+  "started_at": "2026-09-16T17:36:28+09:00",
+  "ended_at": null,
+  "status": "ACTIVE",
+  "first_event_id": "TC-20260916-1703-GOLD",
+  "latest_event_id": "TC-20260916-1703-GOLD",
+  "entry_episode_ids": [],
+  "time_basis": "evaluation_time_jst",
+  "note": "17:03 canonical cycle was recovered at 17:35-17:38; no ACTIONABLE/TRADE entry was established."
+}

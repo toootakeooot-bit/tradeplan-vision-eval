@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "entry_episode.schema.json",
+  "title": "Entry Episode",
+  "type": "object",
+  "required": ["entry_episode_id", "direction_episode_id", "symbol", "direction", "entry_at", "entry_price", "status"],
+  "properties": {
+    "entry_episode_id": {"type": "string"},
+    "direction_episode_id": {"type": "string"},
+    "symbol": {"type": "string"},
+    "direction": {"enum": ["LONG", "SHORT"]},
+    "entry_at": {"type": "string", "format": "date-time"},
+    "entry_price": {"type": "number"},
+    "initial_sl": {"type": ["number", "null"]},
+    "initial_tp": {"type": "array", "items": {"type": "number"}},
+    "tp_hits": {"type": "array", "items": {"type": "object"}},
+    "sl_hit": {"type": "boolean"},
+    "sl_hit_at": {"type": ["string", "null"], "format": "date-time"},
+    "first_exit_event": {"enum": ["TP", "SL", "UNKNOWN_SAME_BAR", "NONE", null]},
+    "status": {"enum": ["OPEN", "CLOSED", "UNRESOLVED"]},
+    "mt4_result_ref": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}

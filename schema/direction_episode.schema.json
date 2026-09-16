@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "direction_episode.schema.json",
+  "title": "Direction Episode",
+  "type": "object",
+  "required": ["episode_id", "symbol", "direction", "started_at", "status", "first_event_id", "latest_event_id"],
+  "properties": {
+    "episode_id": {"type": "string"},
+    "symbol": {"type": "string"},
+    "direction": {"enum": ["LONG", "SHORT"]},
+    "started_at": {"type": "string", "format": "date-time"},
+    "ended_at": {"type": ["string", "null"], "format": "date-time"},
+    "status": {"enum": ["ACTIVE", "CLOSED"]},
+    "first_event_id": {"type": "string"},
+    "latest_event_id": {"type": "string"},
+    "entry_episode_ids": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

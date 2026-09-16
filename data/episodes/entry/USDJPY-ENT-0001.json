@@ -1,0 +1,26 @@
+{
+  "entry_episode_id": "USDJPY-ENT-0001",
+  "direction_episode_id": "USDJPY-DIR-0001",
+  "symbol": "USDJPY",
+  "direction": "LONG",
+  "entry_at": "2026-09-15T09:26:00+09:00",
+  "canonical_entry_slot_jst": "2026-09-15T08:03:00+09:00",
+  "entry_time_precision": "APPROX_MINUTE",
+  "entry_price": 154.544,
+  "initial_sl": 154.0,
+  "initial_tp": [154.892, 155.2, 155.6],
+  "tp_hits": [
+    {"level": 154.892, "hit": false, "hit_at": null},
+    {"level": 155.2, "hit": false, "hit_at": null},
+    {"level": 155.6, "hit": false, "hit_at": null}
+  ],
+  "sl_hit": false,
+  "sl_hit_at": null,
+  "first_exit_event": null,
+  "status": "UNRESOLVED",
+  "signal_ended_at": "2026-09-15T17:32:57+09:00",
+  "signal_end_reason": "ENTRY_STATUS_HOLD",
+  "source_event_id": "TC-20260915-0803-USDJPY",
+  "mt4_result_ref": null,
+  "note": "Outcome remains unresolved until external price history confirms TP/SL touch order. Initial plan is frozen."
+}
